@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Manager</h1>
+        <input type="text" id="nameInput" placeholder="Enter name">
+        <input type="text" id="phoneInput" placeholder="Enter phone number">
+        <input type="text" id="emailInput" placeholder="Enter email">
+        <button id="addContactButton">Add Contact</button>
+        <select id="sortCriteria">
+            <option value="name">Sort by Name</option>
+            <option value="phone">Sort by Phone</option>
+            <option value="email">Sort by Email</option>
+        </select>
+        <button id="sortButton">Sort Contacts</button>
+        <ul id="contactList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
